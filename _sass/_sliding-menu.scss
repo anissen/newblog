@@ -9,7 +9,7 @@
 	display: block;
 	width: $button-size * 2;
 	height: $button-size * 2;
-	background: #000;
+	background: $black;
 	outline: 0;
 	padding: 0;
 	border: 2.5px solid transparent;
@@ -70,7 +70,7 @@
 	}
 	.menu-item > li {
 		a {
-			color: $white;
+			color: $sliding-menu-color;
 			text-decoration: none;
 		}
 		.teaser {
@@ -94,7 +94,7 @@
 			}
 		}
 		.excerpt {
-			color: $white;
+			color: $sliding-menu-color;
 			margin-top: 0;
 			@include media($medium) {
 				margin-left: 170px;
@@ -103,7 +103,7 @@
 	}
 	.sub-menu-item > li a {
 		display: block;
-		color: $white;
+		color: $sliding-menu-color;
 		font-style: italic;
 	}
 	.menu-item .home a {

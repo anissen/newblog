@@ -17,15 +17,15 @@ $border-radius               	: 3px;
 
 // Color variables
 
-$body-color                  	: #ebebeb;
-$text-color                  	: #313130;
-$base-color                  	: #343434;    
+$body-color                  	: #232323;
+$text-color                  	: #ebebeb;
+$base-color                  	: #898989;    
 $comp-color                  	: complement($base-color); 
 $border-color                	: #ddd;
-$white                       	: #fff;
-$black                       	: #000;
-$link-color                  	: #222;
-$primary-color               	: $black;
+$white                       	: #222;
+$black                       	: #ddd;
+$link-color                  	: #888;
+$primary-color               	: $white;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -68,10 +68,10 @@ $form-font-size              	: $doc-font-size;
 // Sliding Menu Navigation
 
 $sliding-menu-border-color	 	: $black;
-$sliding-menu-background 		: $black;
-$sliding-menu-color 	 		: $white;
+$sliding-menu-background 		: $white;
+$sliding-menu-color 	 		: $black;
 $sliding-menu-background-hover	: $black;
-$sliding-menu-color-hover	 	: $white;
+$sliding-menu-color-hover	 	: $black;
 $sliding-menu-border   			: 1px solid $sliding-menu-border-color;
 $button-size		         	: 30px; 
 $transition						: .3s; // increase this to see the transformations in slow-motion
