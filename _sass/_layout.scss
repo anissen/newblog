@@ -1,5 +1,6 @@
 body {
     background-color: $body-color;
+    /* background-image: url('/../images/bg.png'); */
 }
 
 // MASTHEAD
@@ -31,7 +32,7 @@ body {
 	font-weight: 700;
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 
 
@@ -103,7 +104,7 @@ body {
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
-			text-transform: uppercase;
+			// text-transform: uppercase;
 		}
 	}
 }
@@ -111,7 +112,7 @@ body {
 	@include clearfix;
 	font-weight: 700;
 	a {
-		color: lighten($black,60);
+		color: darken($black, 40);
 	}
 }
 
@@ -255,12 +256,12 @@ body {
 	}
 }
 .page-lead-content {
-	padding: 1em;
+	padding: 3em;
 	@include media($medium) {
-		padding: 2em;
+		padding: 6em;
 	}
 	@include media($large) {
-		padding: 3em;
+		padding: 9em;
 	}
 	h1 {
 		@include font-size(48);
@@ -319,13 +320,13 @@ body {
 .breadcrumbs { 
 	@include row;
 	margin-top: $gutter;
-	@include font-size(10,no);
+	@include font-size(12,no);
 	a {
 		display: inline-block;
 		font-family: $alt-font;
 		font-weight: 700;
 		text-align: left;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 	}
 }
 // table of contents
@@ -365,8 +366,8 @@ body {
 		@include omega(2n);
 	}
 	@include media($medium) {
-		@include span-columns(3);
-		@include omega(4n);
+		@include span-columns(4);
+		@include omega(3n);
 	}
 	.entry-date {
 		@include font-size(16,no);

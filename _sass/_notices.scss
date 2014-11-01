@@ -6,22 +6,22 @@
 	padding: 1.5em;
 	font-family: $alt-font;
 	@include font-size(14,39);
-	color: $white;
+	color: lighten($black, 20);
 	background-color: $notice-color;
 	border-radius: $border-radius;
 	a {
-		color: $white;
-		border-bottom: 1px dotted $white;
+		color: $black;
+		border-bottom: 1px dotted $black;
 	}
 }
 .notice {
 	@include notice($primary-color);
 }
 .notice-inverse {
-	@include notice($white);
-	color: $text-color;
+	@include notice($black);
+	color: $white;
 	a {
-		color: $text-color;
+		color: $black;
 	}
 }
 .notice-info {

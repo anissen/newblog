@@ -85,7 +85,9 @@
     </script>
     {% endif %}
     <script>
-        $('.geopattern').geopattern();
+        $('.geopattern').each(function() {
+            $(this).geopattern($(this).data('geo'));
+        });
     </script>
 
   </body>

@@ -5,8 +5,11 @@ image:
   feature: hex-1500x500.png
 ---
 
+<!-- <h2>Latest Blog Posts</h2> -->
+
 <div class="tiles">
 
+<!-- 
 <div class="tile">
   <h2 class="post-title">My Blog</h2>
   <p class="post-excerpt">This is my blog. Yay!</p>
@@ -16,7 +19,7 @@ image:
   <h2 class="post-title">Another Post Here</h2>
   <p class="post-excerpt">Some text.</p>
 </div>
-<!-- <div class="tile">
+<div class="tile">
   <h2 class="post-title">Built for Jekyll 2</h2>
   <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
 </div>
