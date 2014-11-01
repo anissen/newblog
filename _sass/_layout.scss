@@ -270,6 +270,7 @@ body {
 		@include media($large) {
 			@include font-size(72);
 		}
+        text-shadow: 1px 1px 1px $body-color;
 	}
 	h2 {
 		@include font-size(20);
@@ -279,6 +280,7 @@ body {
 		@include media($large) {
 			@include font-size(32);
 		}
+        text-shadow: 1px 1px 1px $body-color;
 	}
 }
 // page header

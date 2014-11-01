@@ -59,6 +59,7 @@
     </div>
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.url }}/js/plugins/geopattern.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
     
     {% if page.toc == true %}
@@ -83,6 +84,9 @@
       });
     </script>
     {% endif %}
+    <script>
+        $('.geopattern').geopattern();
+    </script>
 
   </body>
 

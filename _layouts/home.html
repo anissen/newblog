@@ -50,7 +50,7 @@
     {% include navigation-sliding.html %}
 
     {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
+    <div class="page-lead geopattern" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
       <div class="wrap page-lead-content">
         <h1>Anders Nissens Blog</h1>
         <h2>Ramblings about game development.</h2>
@@ -80,7 +80,11 @@
     </div>
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.url }}/js/plugins/geopattern.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
+    <script>
+      $('.geopattern').geopattern('' + Math.random());
+    </script
 
   </body>
 

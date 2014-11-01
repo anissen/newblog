@@ -2,9 +2,9 @@
 
 title: Anders Nissens Blog
 description: Ramblings of a hobby game developer
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
+logo: 120x120.gif # 120x120 px default image used for Twitter summary card
+teaser: 400x250.gif # 400x250 px default teaser image used in image archive grid
+locale: en_US
 url: #http://andersnissen.com/newblog
 
 # Jekyll configuration
@@ -27,7 +27,7 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: "Some bio goes here"
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
