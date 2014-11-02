@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: Anders Nissens Blog
-description: Ramblings of a hobby game developer
+description: Ramblings of a game developer enthusiast
 logo: 120x120.gif # 120x120 px default image used for Twitter summary card
 teaser: 400x250.gif # 400x250 px default teaser image used in image archive grid
 locale: en_US
