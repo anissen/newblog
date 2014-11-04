@@ -19,6 +19,7 @@ I used to have a [blog back in 2004-2007](http://andersnissen.blogspot.dk/). It 
 ## The Why
 
 In an attempt at keeping this post short here's a TL;DR:
+
 * I'm planning on doing a development log (devlog) on my next game. For this, I need to get into the habit of sharing my thoughts, development process and, especially, progress -- however minute.
 * I've had a programming language epiphany. It's called [Haxe](http://haxe.org) and it's pretty great. I won't be forcing it down your throat but there'll be a lot of Haxe snippets strewn around in my posts.
 * I'm actually quite fond of writing and haven't had any proper reason for writing, that is, outside of writing code.
