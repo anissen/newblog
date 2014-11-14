@@ -413,6 +413,7 @@ body {
 }
 // page footer
 .page-footer {
+    color: darken($text-color, 25);
 	position: relative;
 }
 .author-image {

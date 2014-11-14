@@ -52,3 +52,9 @@ echo "Saving to ${filename}.mp4"
 adb pull /sdcard/${filename}.mp4 ${filename}.mp4
 echo "Done"
 ```
+
+
+# Building a release version
+## Signing
+## Verifying
+jarsigner -verify -verbose -certs export/android/bin/bin/GameOfGames-release.apk
