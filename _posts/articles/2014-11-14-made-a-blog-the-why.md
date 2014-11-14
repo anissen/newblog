@@ -4,7 +4,8 @@ title: "Made a Blog: The Why"
 modified:
 categories: articles
 excerpt:
-tags: []
+tags: [blog, haxe]
+comments: true
 image:
   feature:
   teaser: blog.png

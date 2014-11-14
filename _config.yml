@@ -29,7 +29,7 @@ owner:
     ad-slot: 
   bio: "Professional code monkey. Game development enthusiast. Haxe addict. Living in Aarhus, Denmark."
   avatar: me_small.jpg # 160x160 px image for author byline
-disqus-shortname:
+disqus-shortname: andersnissensblog
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
